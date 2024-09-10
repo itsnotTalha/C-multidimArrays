@@ -1,0 +1,23 @@
+/******************************************* 
+Intro
+_____               ______
+INPUT               OUTPUT
+-----               ------
+
+********************************************/
+#include<stdio.h>
+int main(){
+    int n;
+    printf("Enter Array size:");
+    scanf("%d",&n);
+    int num[n];
+    printf("Enter your number:\n");
+    for(int i=0;i<n;i++){
+        scanf("%d", &num[i]);
+    }
+}
+/******************************************* 
+ * Author- Talha Jubayer
+ * talhajubayer737@gmail.com
+ * BSCSE@United International University
+********************************************/

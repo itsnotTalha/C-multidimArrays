@@ -1,0 +1,183 @@
+                  Multi-Dimensional Array related problems
+
+                            (Total 15 questions)
+
+##01
+WAP that will take n integers into a sqrt(n) by sqrt(n) array (2D) and show them as
+traditional matrix view.
+_____                   ______
+INPUT                   OUTPUT
+-----                   ------
+9                       9 8 7
+9 8 7 6 5 4 3 2 1       6 5 4
+                        3 2 1
+
+##02
+WAP that will take (m x n) integers into a m by n array (2D) and print them both row-wise
+and column-wise.                        
+_____                   ______
+INPUT                   OUTPUT
+-----                   ------
+2 3                     Row-wise: 1 2 3 6 5 4
+1 2 3                   Column-wise: 1 6 2 5 3 4
+6 5 4
+
+##03
+WAP that will take inputs of a 3 by 3 matrix into a 2D array. Now find the determinant of
+this matrix. http://www.mathsisfun.com/algebra/matrix-determinant.html
+_____                   ______
+INPUT                   OUTPUT
+-----                   ------
+1 2 3                   0
+4 5 6
+7 8 9
+
+##04
+WAP that will take inputs of a n sized square matrix into a 2D array. Now show all the
+elements of its two diagonals. Reference: http://en.wikipedia.org/wiki/Main_diagonal
+_____                   ______
+INPUT                   OUTPUT
+-----                   ------
+5                       Major diagonal: 1 4 2 9 4
+1 2 3 4 5               Minor diagonal: 5 2 2 7 1
+5 4 3 2 1
+2 2 2 2 2
+6 7 8 9 0
+1 9 3 7 4
+
+##05
+WAP that will take the size of an identity matrix from the user and generate the identity
+matrix into a 2D array. Finally display it. Reference:http://en.wikipedia.org/wiki/Identity_matrix
+_____                   ______
+INPUT                   OUTPUT
+-----                   ------
+5                       1 0 0 0 0
+                        0 1 0 0 0
+                        0 0 1 0 0
+                        0 0 0 1 0
+                        0 0 0 0 1
+
+
+##06
+WAP that will take inputs of two m x n sized matrix into two 2D array, suppose A and B.
+Now do C = A + B. Finally display all the elements from matrix / 2D array C.
+_____                   ______
+INPUT                   OUTPUT
+-----                   ------
+2 3                     2 3 4
+1 2 3                   4 5 6
+2 3 4
+1 1 1
+2 2 2
+
+##07
+WAP that will take inputs of two 3 x 3 sized matrix into two 2D array, suppose A and B. Now
+do C = A * B (multiplication). Finally display all the elements from matrix / 2D array C.
+_____                   ______
+INPUT                   OUTPUT
+-----                   ------
+1 2 3                   9 9 9
+4 5 6                   24 24 24
+7 8 9                   39 39 39
+2 2 2
+2 2 2
+1 1 1
+
+##08
+WAP that will take inputs of m x n sized matrix into a 2D array and find the maximum
+element with index locationfrom that matrix.
+_____                   ______
+INPUT                   OUTPUT
+-----                   ------
+3 3                     Max: 9
+1 2 3                   Location: [2][1]
+4 5 6
+2 9 2
+
+##09
+WAP that will take (n x n) integer inputs into a square matrix of dimension n (where n must
+be an odd number). Then calculate sum of the integers at first row, last row and two
+diagonals without overlap. Please see the sample input-output.
+_____                   ______
+INPUT                   OUTPUT
+-----                   ------
+5                       52
+#1#2#3#4#5
+ 2#3 4#1 6
+ 3 4#9 6 7
+ 4#2 6#7 8
+#5#4#3#2#1
+
+##10
+WAP that will take (n x n) integer inputs into a square matrix of dimension n (where n
+must be an odd number). Then calculate sum of the integers based on following position
+pattern (consider only the boxed position during the sum). Please see the input-output.
+_____                   ______
+INPUT                   OUTPUT
+-----                   ------
+5
+#1#2#3 4#5               71
+ 2 3#4 1#6
+#3#4#9#6#7
+#4 2#6 7 8
+#5 4#3#2#1 
+
+##11
+WAP that will take (n x n) integer inputs into a square matrix of dimension n (where n
+must be an odd number). Then calculate sum of the integers based on following position
+pattern (consider only the boxed position during the sum). Please see the input-output.
+_____                   ______
+INPUT                   OUTPUT
+-----                   ------
+5
+ 1#2 3#4 5               65
+#2#3#4#1#6
+ 3#4 9#6 7
+#4#2#6#7#8
+ 5#4 3#2 1
+
+ ##12
+ WAP that will take (m x n) integer inputs into a matrix of dimension m x n. Now reverse
+that matrix within itself and display it. Reversal means swap 1st column with the nth
+column, swap 2nd column with the (n-1)th column and so on...
+_____                   ______
+INPUT                   OUTPUT
+-----                   ------
+3 3                     
+1 2 3                   3 2 1
+4 5 6                   6 5 4
+2 9 2                   2 9 2
+
+
+##13
+WAP that will take (n x n) integer inputs into a square matrix of dimension n. Now
+determine whether the matrix is symmetric or not.
+Reference: http://en.wikipedia.org/wiki/Symmetric_matrix
+_____                   ______
+INPUT                   OUTPUT
+-----                   ------
+3                       YES
+1 7 3
+7 4 5
+3 5 6
+
+##14
+WAP that will take (m x n) positive integer inputs into a matrix of dimension m x n. Now
+replace all the duplicate integers by -1 in that matrix. Finally display it.
+_____                   ______
+INPUT                   OUTPUT
+-----                   ------
+3 3         
+1 7 3                   1 7 3
+7 4 5                  -1 4 5
+3 5 6                  -1-1 6
+
+##15
+WAP that will take (m x n) integer inputs into a matrix of dimension m x n. Now just
+simply add all the integers in that matrix and show the result.
+_____                   ______
+INPUT                   OUTPUT
+-----                   ------
+2 6                      33
+2 2 2 2 2 2
+6 5 4 3 2 1
