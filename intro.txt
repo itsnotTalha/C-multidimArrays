@@ -7,13 +7,14 @@ INPUT               OUTPUT
 ********************************************/
 #include<stdio.h>
 int main(){
-    int n;
-    printf("Enter Array size:");
-    scanf("%d",&n);
-    int num[n];
+    int m,n;
+    printf("Enter Array size(m x n) :");
+    scanf("%d %d", %m, &n);
+    int num[m][n];
     printf("Enter your number:\n");
-    for(int i=0;i<n;i++){
-        scanf("%d", &num[i]);
+    for(int i=0;i<m;i++){
+        for(int j=0;j<n;j++)
+        scanf("%d", &num[i][j]);
     }
 }
 /******************************************* 
